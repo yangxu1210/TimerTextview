@@ -7,7 +7,7 @@ TimerTextview 用于倒计时显示，控件本身实现了时间的更新显示
   ```java  
   TimerTextView tv = new TimerTextView(mContext);
   tv.removeRun();
-  // tv.setRefreshDataCallback(new ParentRefreshDataCallback() // 需要刷新时设置
+  // tv.setRefreshDataCallback(new ParentRefreshDataCallback()) // 需要刷新时设置
   tv.setTime(countDownTime);//秒，可以自己扩展需要的时间处理    
   ```
   ![effect](https://raw.githubusercontent.com/yangxu1210/TimerTextview/master/TimerView/screenshot/effect.gif)
